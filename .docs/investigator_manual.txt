@@ -1,0 +1,40 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║   Check the investigator_manual.txt, and remember these commands             ║
+║                                                                              ║
+║   ├── [1;32mgrep[0m                                                                   ║
+║   │   └── Search for a word in a file                                        ║
+║   ├── [1;32m|[0m [pipe]                                                               ║
+║   │   └── Pipe output into another Command                                   ║
+║   ├── [1;32mwc -l[0m                                                                  ║
+║   │   └── Count lines                                                        ║
+║   ├── [1;32msort[0m                                                                   ║
+║   │   └── Alphabetize a list                                                 ║
+║   ├── [1;32muniq -c[0m                                                                ║
+║   │   └── Count consecutive duplicates (requires a sorted list)              ║
+║   ├── [1;32msort -n[0m                                                                ║
+║   │   └── Sort numbers numerically                                           ║
+║   ├── [1;32m>[0m                                                                      ║
+║   │   └── Redirect stdout to a file (overwrites)                             ║
+║   ├── [1;32m>>[0m                                                                     ║
+║   │   └── Redirect stdout to a file (append)                                 ║
+║   ├── [1;32m2>[0m                                                                     ║
+║   │   └── Redirect stderr                                                    ║
+║   ├── [1;32m/dev/null[0m                                                              ║
+║   │   └── Blackhole                                                          ║
+║   ├── [1;32mtop[0m                                                                    ║
+║   │   └── View live process matrix                                           ║
+║   ├── [1;32mps -ef[0m                                                                 ║
+║   │   └── List all processes and Parent IDs (PPID)                           ║
+║   ├── [1;32mkill[0m                                                                   ║
+║   │   └── SIGTERM                                                            ║
+║   ├── [1;32mkill -9[0m                                                                ║
+║   │   └── SIGKILL                                                            ║
+║   ├── [1;32mCtrl+Z[0m                                                                 ║
+║   │   └── Suspend/pause a running foreground job                             ║
+║   ├── [1;32mbg[0m / [1;32mfg[0m                                                                ║
+║   │   └── Send suspeneded job to background / Bring to foreground            ║
+║   └── [1;32mjobs[0m                                                                   ║
+║       └── List background jobs                                               ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
